@@ -6,6 +6,11 @@ package convert
 
 import (
 	"fmt"
+	"regexp"
+	"strings"
+	"time"
+
+	"golang.org/x/crypto/openpgp"
 
 	"github.com/Unknwon/com"
 
@@ -70,6 +75,57 @@ func ToPublicKey(apiLink string, key *models.PublicKey) *api.PublicKey {
 		URL:     apiLink + com.ToStr(key.ID),
 		Title:   key.Name,
 		Created: key.Created,
+	}
+}
+
+// ToGPGKey converts models.PublicGPGKey to api.GPGKey
+func ToGPGKey(key *models.GPGKey) *api.GPGKey {
+	keyList, _ := openpgp.ReadArmoredKeyRing(strings.NewReader(key.Content))
+	pkey := keyList[0].PrimaryKey
+	//Generate subkeys array
+	subkeys := make([]*api.GPGKey, len(keyList[0].Subkeys))
+	for id, k := range keyList[0].Subkeys {
+		subkeys[id] = &api.GPGKey{
+			ID:           key.ID, // OR int64(id) ?
+			PrimaryKeyID: key.KeyID,
+			KeyID:        k.PublicKey.KeyIdString(),
+			//PublicKey:         key.Content, //TODO replace with pkey.PublicKey.Serialize
+			Created: k.PublicKey.CreationTime,
+			Expires: time.Time{}, //TODO expire keyList[0].PrimaryKey.PublicKey.(packet.PublicKeyV3).DaysToExpire //TODO expire
+			//Emails:            emails,
+			//SubsKey:           subkeys,
+			CanSign:           k.PublicKey.CanSign(),
+			CanEncryptComms:   k.PublicKey.PubKeyAlgo.CanEncrypt(),
+			CanEncryptStorage: k.PublicKey.PubKeyAlgo.CanEncrypt(),
+			CanCertify:        k.PublicKey.PubKeyAlgo.CanSign(),
+		}
+	}
+	//Generate emails array
+	emails := make([]*api.GPGKeyEmail, len(keyList[0].Identities))
+	id := 0
+	var validIDNName = regexp.MustCompile("^.+ <([A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64})>$") //"Full Name (comment) <email@example.com>"
+	//for name, identity := range keyList[0].Identities {
+	for name := range keyList[0].Identities {
+		match := validIDNName.FindAllStringSubmatch(name, -1)
+		emails[id] = &api.GPGKeyEmail{
+			Email:    match[0][len(match[0])-1],
+			Verified: false,
+		}
+		id++
+	}
+	return &api.GPGKey{
+		ID:                key.ID,
+		PrimaryKeyID:      "",
+		KeyID:             key.KeyID,
+		PublicKey:         key.Content, //TODO replace with pkey.PublicKey.Serialize
+		Created:           key.Created,
+		Expires:           time.Time{}, //TODO expire keyList[0].PrimaryKey.PublicKey.(packet.PublicKeyV3).DaysToExpire //TODO expire
+		Emails:            emails,
+		SubsKey:           subkeys,
+		CanSign:           pkey.CanSign(),
+		CanEncryptComms:   pkey.PubKeyAlgo.CanEncrypt(),
+		CanEncryptStorage: pkey.PubKeyAlgo.CanEncrypt(),
+		CanCertify:        pkey.PubKeyAlgo.CanSign(),
 	}
 }
 
