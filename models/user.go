@@ -1150,7 +1150,7 @@ func GetUserByNameAndType(name string, utype models.UserType) (*User, error) {
 	return u, nil
 }
 
-// GetIndividualUserByName returns user if is TypeIndividua by given name. //TODO add test
+// GetIndividualUserByName returns user of TypeIndividual by given name. //TODO add test
 func GetIndividualUserByName(name string) (*User, error) {
 	return GetUserByNameAndType(name, models.UserTypeIndividual)
 }
