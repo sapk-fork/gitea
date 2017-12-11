@@ -526,19 +526,19 @@ func parseToken(authorization string) (*models.User, *models.Repository, string,
 		if !ok {
 			return nil, nil, "unknown", fmt.Errorf("Token operation invalid")
 		}
-		repoID, ok := claims["repo"].(int64)
+		repoID, ok := claims["repo"].(float64)
 		if !ok {
 			return nil, nil, opStr, fmt.Errorf("Token repository id invalid")
 		}
-		r, err := models.GetRepositoryByID(repoID)
+		r, err := models.GetRepositoryByID(int64(repoID))
 		if err != nil {
 			return nil, nil, opStr, err
 		}
-		userID, ok := claims["user"].(int64)
+		userID, ok := claims["user"].(float64)
 		if !ok {
 			return nil, r, opStr, fmt.Errorf("Token user id invalid")
 		}
-		u, err := models.GetUserByID(userID)
+		u, err := models.GetUserByID(int64(userID))
 		if err != nil {
 			return nil, r, opStr, err
 		}
