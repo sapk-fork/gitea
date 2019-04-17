@@ -56,7 +56,7 @@ require (
 	github.com/go-macaron/toolbox v0.0.0-20180818072302-a77f45a7ce90
 	github.com/go-redis/redis v6.15.2+incompatible
 	github.com/go-sql-driver/mysql v1.4.0
-	github.com/go-xorm/builder v0.3.3
+	github.com/go-xorm/builder v0.3.4
 	github.com/go-xorm/core v0.6.0
 	github.com/go-xorm/xorm v0.0.0-20190116032649-a6300f2a45e0
 	github.com/gogits/chardet v0.0.0-20150115103509-2404f7772561
