@@ -117,7 +117,7 @@ require (
 	gopkg.in/bufio.v1 v1.0.0-20140618132640-567b2bfa514e // indirect
 	gopkg.in/editorconfig/editorconfig-core-go.v1 v1.2.0
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
-	gopkg.in/ini.v1 v1.42.0
+	gopkg.in/ini.v1 v1.45.0
 	gopkg.in/ldap.v3 v3.0.2
 	gopkg.in/macaron.v1 v1.3.2
 	gopkg.in/redis.v2 v2.3.2 // indirect
