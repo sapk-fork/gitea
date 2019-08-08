@@ -119,7 +119,7 @@ require (
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
 	gopkg.in/ini.v1 v1.42.0
 	gopkg.in/ldap.v3 v3.0.2
-	gopkg.in/macaron.v1 v1.3.2
+	gopkg.in/macaron.v1 v1.3.4
 	gopkg.in/redis.v2 v2.3.2 // indirect
 	gopkg.in/src-d/go-billy.v4 v4.3.2
 	gopkg.in/src-d/go-git.v4 v4.13.1
