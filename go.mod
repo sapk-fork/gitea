@@ -98,7 +98,7 @@ require (
 	github.com/unknwon/com v0.0.0-20190804042917-757f69c95f3e
 	github.com/unknwon/i18n v0.0.0-20190805065654-5c6446a380b6
 	github.com/unknwon/paginater v0.0.0-20151104151617-7748a72e0141
-	github.com/urfave/cli v1.20.0
+	github.com/urfave/cli v1.21.0
 	github.com/willf/bitset v0.0.0-20180426185212-8ce1146b8621 // indirect
 	github.com/yohcop/openid-go v0.0.0-20160914080427-2c050d2dae53
 	golang.org/x/crypto v0.0.0-20190829043050-9756ffdc2472
