@@ -115,7 +115,7 @@ require (
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 	gopkg.in/editorconfig/editorconfig-core-go.v1 v1.3.0
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
-	gopkg.in/ini.v1 v1.46.0
+	gopkg.in/ini.v1 v1.47.0
 	gopkg.in/ldap.v3 v3.0.2
 	gopkg.in/src-d/go-billy.v4 v4.3.2
 	gopkg.in/src-d/go-git.v4 v4.13.1
