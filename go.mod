@@ -70,7 +70,7 @@ require (
 	github.com/lunny/levelqueue v0.0.0-20190217115915-02b525a4418e
 	github.com/mailru/easyjson v0.7.0 // indirect
 	github.com/markbates/goth v1.56.0
-	github.com/mattn/go-isatty v0.0.7
+	github.com/mattn/go-isatty v0.0.9
 	github.com/mattn/go-oci8 v0.0.0-20190320171441-14ba190cf52d // indirect
 	github.com/mattn/go-sqlite3 v1.11.0
 	github.com/mcuadros/go-version v0.0.0-20190308113854-92cdf37c5b75
