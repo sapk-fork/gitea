@@ -112,7 +112,7 @@ require (
 	golang.org/x/tools v0.0.0-20190910221609-7f5965fd7709 // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/asn1-ber.v1 v1.0.0-20150924051756-4e86f4367175 // indirect
-	gopkg.in/editorconfig/editorconfig-core-go.v1 v1.3.0
+	gopkg.in/editorconfig/editorconfig-core-go.v1 v1.3.1
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
 	gopkg.in/ini.v1 v1.46.0
 	gopkg.in/ldap.v3 v3.0.2
