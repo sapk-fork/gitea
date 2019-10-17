@@ -78,7 +78,7 @@ require (
 	github.com/philhofer/fwd v1.0.0 // indirect
 	github.com/pkg/errors v0.8.1
 	github.com/pquerna/otp v0.0.0-20160912161815-54653902c20e
-	github.com/prometheus/client_golang v1.1.0
+	github.com/prometheus/client_golang v1.2.0
 	github.com/prometheus/procfs v0.0.4 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20190321074620-2f0d2b0e0001 // indirect
 	github.com/russross/blackfriday v0.0.0-20180428102519-11635eb403ff
