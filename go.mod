@@ -76,7 +76,7 @@ require (
 	github.com/olivere/elastic/v7 v7.0.9
 	github.com/pkg/errors v0.8.1
 	github.com/pquerna/otp v0.0.0-20160912161815-54653902c20e
-	github.com/prometheus/client_golang v1.1.0
+	github.com/prometheus/client_golang v1.5.0
 	github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4 // indirect
 	github.com/prometheus/procfs v0.0.4 // indirect
 	github.com/quasoft/websspi v1.0.0
