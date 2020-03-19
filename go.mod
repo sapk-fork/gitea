@@ -45,7 +45,7 @@ require (
 	github.com/go-git/go-git/v5 v5.0.0
 	github.com/go-openapi/jsonreference v0.19.3 // indirect
 	github.com/go-redis/redis v6.15.2+incompatible
-	github.com/go-sql-driver/mysql v1.4.1
+	github.com/go-sql-driver/mysql v1.5.0
 	github.com/go-swagger/go-swagger v0.21.0
 	github.com/gobwas/glob v0.2.3
 	github.com/gogs/chardet v0.0.0-20191104214054-4b6791f73a28
