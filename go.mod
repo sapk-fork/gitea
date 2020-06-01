@@ -67,7 +67,7 @@ require (
 	github.com/keybase/go-crypto v0.0.0-20200123153347-de78d2cb44f4
 	github.com/klauspost/compress v1.10.2
 	github.com/lafriks/xormstore v1.3.2
-	github.com/lib/pq v1.2.0
+	github.com/lib/pq v1.6.0
 	github.com/lunny/dingtalk_webhook v0.0.0-20171025031554-e3534c89ef96
 	github.com/mailru/easyjson v0.7.0 // indirect
 	github.com/markbates/goth v1.61.2
@@ -110,7 +110,7 @@ require (
 	github.com/yuin/goldmark v1.1.25
 	github.com/yuin/goldmark-meta v0.0.0-20191126180153-f0638e958b60
 	go.etcd.io/bbolt v1.3.3 // indirect
-	golang.org/x/crypto v0.0.0-20200302210943-78000ba7a073
+	golang.org/x/crypto v0.0.0-20200311171314-f7b00557c8c4
 	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd
