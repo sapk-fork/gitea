@@ -53,7 +53,6 @@ require (
 	github.com/gobwas/glob v0.2.3
 	github.com/gogs/chardet v0.0.0-20191104214054-4b6791f73a28
 	github.com/gogs/cron v0.0.0-20171120032916-9f6c956d3e14
-	github.com/golang/protobuf v1.4.0 // indirect
 	github.com/google/go-github/v24 v24.0.1
 	github.com/gorilla/context v1.1.1
 	github.com/hashicorp/go-retryablehttp v0.6.6 // indirect
@@ -86,9 +85,7 @@ require (
 	github.com/olivere/elastic/v7 v7.0.9
 	github.com/pkg/errors v0.9.1
 	github.com/pquerna/otp v0.0.0-20160912161815-54653902c20e
-	github.com/prometheus/client_golang v1.1.0
-	github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4 // indirect
-	github.com/prometheus/procfs v0.0.4 // indirect
+	github.com/prometheus/client_golang v1.7.0
 	github.com/quasoft/websspi v1.0.0
 	github.com/remyoudompheng/bigfft v0.0.0-20190321074620-2f0d2b0e0001 // indirect
 	github.com/satori/go.uuid v1.2.0
@@ -113,7 +110,7 @@ require (
 	golang.org/x/crypto v0.0.0-20200302210943-78000ba7a073
 	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd
+	golang.org/x/sys v0.0.0-20200615200032-f1bc736245b1
 	golang.org/x/text v0.3.2
 	golang.org/x/time v0.0.0-20200416051211-89c76fbcd5d1 // indirect
 	golang.org/x/tools v0.0.0-20200325010219-a49f79bcc224
