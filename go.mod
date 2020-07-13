@@ -65,7 +65,6 @@ require (
 	github.com/lafriks/xormstore v1.3.2
 	github.com/lib/pq v1.7.0
 	github.com/lunny/dingtalk_webhook v0.0.0-20171025031554-e3534c89ef96
-	github.com/mailru/easyjson v0.7.0 // indirect
 	github.com/markbates/goth v1.61.2
 	github.com/mattn/go-isatty v0.0.12
 	github.com/mattn/go-sqlite3 v2.0.2+incompatible
@@ -79,7 +78,7 @@ require (
 	github.com/nfnt/resize v0.0.0-20160724205520-891127d8d1b5
 	github.com/niklasfasching/go-org v0.1.9
 	github.com/oliamb/cutter v0.2.2
-	github.com/olivere/elastic/v7 v7.0.9
+	github.com/olivere/elastic/v7 v7.0.18
 	github.com/pkg/errors v0.9.1
 	github.com/pquerna/otp v1.2.0
 	github.com/prometheus/client_golang v1.1.0
@@ -90,7 +89,7 @@ require (
 	github.com/sergi/go-diff v1.1.0
 	github.com/shurcooL/httpfs v0.0.0-20190527155220-6a4d4a70508b // indirect
 	github.com/shurcooL/vfsgen v0.0.0-20181202132449-6a9ea43bcacd
-	github.com/stretchr/testify v1.4.0
+	github.com/stretchr/testify v1.5.1
 	github.com/tecbot/gorocksdb v0.0.0-20181010114359-8752a9433481 // indirect
 	github.com/tinylib/msgp v1.1.2 // indirect
 	github.com/tstranex/u2f v1.0.0
