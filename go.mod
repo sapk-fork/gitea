@@ -42,7 +42,7 @@ require (
 	github.com/go-git/go-billy/v5 v5.0.0
 	github.com/go-git/go-git/v5 v5.1.0
 	github.com/go-openapi/jsonreference v0.19.3 // indirect
-	github.com/go-redis/redis v6.15.2+incompatible
+	github.com/go-redis/redis v6.15.8+incompatible
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/go-swagger/go-swagger v0.21.0
 	github.com/go-testfixtures/testfixtures/v3 v3.2.0
