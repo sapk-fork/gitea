@@ -98,7 +98,7 @@ require (
 	github.com/unknwon/i18n v0.0.0-20190805065654-5c6446a380b6
 	github.com/unknwon/paginater v0.0.0-20151104151617-7748a72e0141
 	github.com/urfave/cli v1.20.0
-	github.com/xanzy/go-gitlab v0.31.0
+	github.com/xanzy/go-gitlab v0.34.2
 	github.com/yohcop/openid-go v1.0.0
 	github.com/yuin/goldmark v1.1.32
 	github.com/yuin/goldmark-highlighting v0.0.0-20200307114337-60d527fdb691
