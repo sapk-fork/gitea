@@ -431,6 +431,7 @@ github.com/go-swagger/scan-repo-boundary v0.0.0-20180623220736-973b3573c013 h1:l
 github.com/go-swagger/scan-repo-boundary v0.0.0-20180623220736-973b3573c013/go.mod h1:b65mBPzqzZWxOZGxSWrqs4GInLIn+u99Q9q7p+GKni0=
 github.com/go-testfixtures/testfixtures/v3 v3.4.0 h1:cny44xqH4ctXRld/COxFGPC7XDyOU8KNnwmfCxEEqoQ=
 github.com/go-testfixtures/testfixtures/v3 v3.4.0/go.mod h1:P4L3WxgOsCLbAeUC50qX5rdj1ULZfUMqgCbqah3OH5U=
+github.com/go-testfixtures/testfixtures/v3 v3.4.1/go.mod h1:P4L3WxgOsCLbAeUC50qX5rdj1ULZfUMqgCbqah3OH5U=
 github.com/go-toolsmith/astcast v1.0.0/go.mod h1:mt2OdQTeAQcY4DQgPSArJjHCcOwlX+Wl/kwN+LbLGQ4=
 github.com/go-toolsmith/astcopy v1.0.0/go.mod h1:vrgyG+5Bxrnz4MZWPF+pI4R8h3qKRjjyvV/DSez4WVQ=
 github.com/go-toolsmith/astequal v1.0.0/go.mod h1:H+xSiq0+LtiDC11+h1G32h7Of5O3CYFJ99GVbS5lDKY=
