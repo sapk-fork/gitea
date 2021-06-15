@@ -17,7 +17,7 @@ require (
 	gitea.com/macaron/macaron v1.5.1-0.20201027213641-0db5d4584804
 	gitea.com/macaron/session v0.0.0-20201103015045-a177a2701dee
 	gitea.com/macaron/toolbox v0.0.0-20190822013122-05ff0fc766b7
-	github.com/PuerkitoBio/goquery v1.5.1
+	github.com/PuerkitoBio/goquery v1.7.0
 	github.com/RoaringBitmap/roaring v0.5.5 // indirect
 	github.com/alecthomas/chroma v0.8.1
 	github.com/andybalholm/brotli v1.0.1 // indirect
